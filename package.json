@@ -1,0 +1,16 @@
+{
+  "name": "ca6_test",
+  "version": "0.01",
+  "description": "CM Test",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lkraljevic/CM6_cordova.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+  }
+}

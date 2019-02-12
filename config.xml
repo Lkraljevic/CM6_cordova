@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.codeanywhere.test" version="0.0.1">
+
+  <name>CA6 Cordova</name>
+
+  <author href="">
+    Lkraljevic
+  </author>
+
+  <!-- Define the main entry-point to the application -->
+  <content src="index.html" />
+
+  <!-- Customize your app and platform with the preference element. -->
+  <preference name="DisallowOverscroll" value="true" />
+  <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
+  <preference name="android-minSdkVersion" value="21" />
+  <!-- Android 5.0 -->
+  <preference name="android-targetSdkVersion" value="24" />
+
+  <preference name="AndroidLaunchMode" value="standard" />
+
+  <preference name="BackgroundColor" value="#222" />
+
+  <platform name="android">
+
+  </platform>
+
+  <platform name="ios">
+     
+  </platform>
+
+
+  
+    
+  <access origin="*" />
+  
+
+  <allow-intent href="http://*/*" />
+  <allow-intent href="https://*/*" />
+  <allow-intent href="tel:*" />
+  <allow-intent href="sms:*" />
+  <allow-intent href="mailto:*" />
+  <allow-intent href="geo:*" />
+  <platform name="android">
+    <allow-intent href="market:*" />
+  </platform>
+  
+    
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+
+
+</widget>
